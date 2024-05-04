@@ -3,7 +3,7 @@
   "display": "NodeJS",
   "extends": "./base.json",
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "NodeNext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,

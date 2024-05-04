@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 app.use(helmet())
 
-app.get('/', (request, response) => {
-  response.json({ message: 'Hello' })
+app.post('/', (request, response) => {
+  response.json({ message: 'Connected' })
 })
 
